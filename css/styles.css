@@ -1,5 +1,73 @@
 body {
     font-family: Roboto;    
     color: #000;
+}
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.header {
+background-color: #ffffff;
+}
 
+.header-logo {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+.header-item {
+
+}
+.header-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+}
+.header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+     /* SLATE */
+    color: #434455;
+}
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
