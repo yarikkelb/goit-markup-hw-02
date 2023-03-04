@@ -19,7 +19,25 @@ background-color: #ffffff;
     left: 156px;
     top: 24px;
 }
+.header-logo: hover{
+    color: #4D5AE5;
+}
+
+
 .header-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+     /* NAVY BLUE */
+    color: #2E2F42;      
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 }
 .header-email {
@@ -43,6 +61,9 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
      /* SLATE */
     color: #434455;
+}
+.hero {
+    background-color: #2E2F42;;
 }
 .hero-title {
     font-family: 'Roboto';
@@ -71,3 +92,4 @@ background-color: #ffffff;
     order: 0;
     flex-grow: 0;
 }
+
