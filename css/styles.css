@@ -1,3 +1,10 @@
+!:root{
+--main-title-color: #ffffff;
+--second-title-color: #303030;
+--main-btn-color: #ffffff; 
+--second-btn-color: #4D5AE5;
+}
+
 body {
     font-family: Roboto, sans-serif;    
     color: #434455;
@@ -10,6 +17,9 @@ body {
 }
 .header {
 background-color: #ffffff;
+}
+.top-text {
+    
 }
 
 .header-logo {
@@ -180,6 +190,9 @@ height: 22px;
 left: 156px;
 top: 2380px;
 }
+
+/**-----Footer---------*/
+
 .footer-title: :hover {
     color: #2E2F42;;
 }
@@ -193,3 +206,5 @@ letter-spacing: 0.02em;
 /* CORNFLOWER */
 color: #E7E9FC;
 }
+
+
