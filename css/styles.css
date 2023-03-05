@@ -19,7 +19,7 @@ body {
 background-color: #ffffff;
 }
 .top-text {
-    
+
 }
 
 .header-logo {
@@ -193,8 +193,8 @@ top: 2380px;
 
 /**-----Footer---------*/
 
-.footer-title: :hover {
-    color: #2E2F42;;
+.footer: {
+   backroud-color: #2e2f42;
 }
 .footer-text {
 font-family: 'Roboto';
