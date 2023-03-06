@@ -23,11 +23,7 @@ background-color: #ffffff;
 }
 
 .header-logo {
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    
 }
 .header-logo: hover{
     color: #4D5AE5;
@@ -39,12 +35,9 @@ background-color: #ffffff;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
+    line-height: 1.5;
     letter-spacing: 0.02em;
-     /* NAVY BLUE */
     color: #2E2F42;      
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -56,9 +49,7 @@ background-color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    /* SLATE */
     color: #434455;
 }
 .header-tel {
@@ -67,9 +58,7 @@ background-color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-     /* SLATE */
     color: #434455;
 }
 .hero {
@@ -81,8 +70,6 @@ background-color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -92,9 +79,7 @@ background-color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     /* Inside auto layout */
@@ -122,10 +107,8 @@ background-color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5px;
-    letter-spacing: 0.02em;
-    /* SLATE */    
+    letter-spacing: 0.02em;    
     color: #434455;  
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -136,7 +119,6 @@ background-color: #ffffff;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     /* NAVY BLUE */
@@ -148,7 +130,6 @@ background-color: #ffffff;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;           
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     /* NAVY BLUE */
@@ -160,7 +141,6 @@ background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;       
-    text-align: center;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: #2E2F42;            
@@ -174,15 +154,13 @@ background-color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;        
-    text-align: center;
     letter-spacing: 0.02em;
-    /* SLATE */
     color: #434455;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
 }
+/**-----Footer---------*/
 .footer-title {
 position: absolute;
 width: 115px;
@@ -190,8 +168,6 @@ height: 22px;
 left: 156px;
 top: 2380px;
 }
-
-/**-----Footer---------*/
 
 .footer: {
    backroud-color: #2e2f42;
@@ -203,7 +179,6 @@ top: 2380px;
     font-size: 18px;
     line-height: 1.17;           
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;              
     color: #F4F4FD;
