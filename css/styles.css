@@ -83,6 +83,7 @@ font-style: normal
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -105,7 +106,7 @@ font-style: normal
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: #2E2F42;       
@@ -119,7 +120,7 @@ font-style: normal
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;    
     color: #434455;  
     flex: none;
@@ -132,6 +133,7 @@ font-style: normal
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     /* NAVY BLUE */
@@ -192,6 +194,9 @@ color: #FFFFFF;
 
 
 /**-----Footer---------*/
+.footer {
+backroud-color: #2e2f42;
+}
 .footer-title {
 position: absolute;
 width: 115px;
@@ -200,9 +205,6 @@ left: 156px;
 top: 2380px;
 }
 
-.footer: {
-   backroud-color: #2e2f42;
-}
 .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
