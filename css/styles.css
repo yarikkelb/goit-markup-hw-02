@@ -38,6 +38,9 @@ background-color: #ffffff;
 .header-logo: hover{
     color: #4D5AE5;
 }
+.logo-studio {
+
+}
 
 
 .header-item {
@@ -96,7 +99,7 @@ font-style: normal
     display: flex;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    /* Inside auto layout */
+    cursor: pointer;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -206,7 +209,8 @@ top: 2380px;
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -217,7 +221,7 @@ top: 2380px;
     color: #F4F4FD;
 }
 .footer-text {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
