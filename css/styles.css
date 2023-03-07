@@ -19,6 +19,10 @@ body {
 .header {
 background-color: #ffffff;
 }
+.nav .link:hover,
+.nav .link:focus{
+color: #404bbf;
+}
 .top-text {
 
 }
