@@ -139,7 +139,6 @@ font-style: normal
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /* NAVY BLUE */
     color: #2E2F42;
 }
 .team-title {
@@ -151,7 +150,6 @@ font-style: normal
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /* NAVY BLUE */
     color: #2E2F42;
 }
 .team-title-name {
@@ -196,7 +194,7 @@ color: #FFFFFF;
 .list {
 list-style: none;
 }
-.gallery-info link{
+.gallery-info{
 text-decoration: none;
 }
 
