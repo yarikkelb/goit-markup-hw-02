@@ -193,6 +193,13 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 }
+.list {
+list-style: none;
+}
+.gallery-info link{
+text-decoration: none;
+}
+
 .gallery-title{
 font-style: normal;
 font-weight: 500;
