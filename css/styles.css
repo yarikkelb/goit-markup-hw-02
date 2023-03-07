@@ -194,11 +194,9 @@ color: #FFFFFF;
 .list {
 list-style: none;
 }
-.link{
-text-decoration: none;
-}
 
 .gallery-title{
+text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
