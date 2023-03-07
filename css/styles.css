@@ -2,7 +2,8 @@
 --main-title-color: #ffffff;
 --second-title-color: #303030;
 --main-btn-color: #ffffff; 
---second-btn-color: #4D5AE5;
+--second-btn-color: #4D5AE5;        
+-- all-btn: #4d5ae5;
 }
 
 body {
@@ -189,7 +190,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--second-btn-color);
 }
 .list {
 list-style: none;
