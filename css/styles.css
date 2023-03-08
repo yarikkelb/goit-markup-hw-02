@@ -199,7 +199,9 @@ color: var(--second-btn-color);
 .list {
 list-style: none;
 }
-
+.gallery list {
+    background-color: #FFFFFF;
+}
 .gallery-title{
 text-decoration: none;
 font-style: normal;
