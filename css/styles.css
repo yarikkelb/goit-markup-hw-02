@@ -201,6 +201,7 @@ list-style: none;
 }
 .gallery list {
     background-color: #FFFFFF;
+    text-decoration: none; 
 }
 .gallery-title{
 text-decoration: none;
