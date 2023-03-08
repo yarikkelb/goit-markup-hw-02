@@ -6,7 +6,7 @@
 --all-btn: #4d5ae5;
 }
 
-body {
+body{
     font-family: Roboto, sans-serif;    
     color: #434455;
 }
@@ -43,7 +43,7 @@ color: #404bbf;
 .header-logo: hover{
     color: #4D5AE5;
 }
-.logo-studio {
+.span:  {
 
 }
 
