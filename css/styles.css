@@ -79,6 +79,12 @@ font-style: normal
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-email:hover {
+    color: #404bbf;
+}
+.header-tel:focus {
+    color: #404bbf;
+}
 .hero {
     background-color: #2E2F42;;
 }
