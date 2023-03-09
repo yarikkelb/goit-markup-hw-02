@@ -61,7 +61,7 @@ background-color: #ffffff;
 .header-address {
 font-style: normal
 }
-.header-email {
+.header-address {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -70,15 +70,7 @@ font-style: normal
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-tel {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .header-email:hover {
     color: #404bbf;
 }
