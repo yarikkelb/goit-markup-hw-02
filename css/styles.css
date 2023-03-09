@@ -67,7 +67,9 @@ background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-address);
+}
+.header-address {
+ color: var(--header-address);
 }
 .header-address:hover {
     color: #404bbf;
