@@ -1,4 +1,5 @@
 :root{
+--header-logo: #4d5ae5;
 --main-title-color: #ffffff;
 --second-title-color: #303030;
 --main-btn-color: #ffffff;     
@@ -36,12 +37,10 @@ color: #404bbf;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;               
-    color: #4D5AE5;
-    color: var(--span);    
+    color: var(--span); 
+    color: var(--header-logo);   
 }
-.header-logo: hover{
-    color: #4D5AE5;
-}
+
 
 .header-link {
     font-family: 'Roboto', sans-serif;
