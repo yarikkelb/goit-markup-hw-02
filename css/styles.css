@@ -59,7 +59,9 @@ background-color: #ffffff;
 .header-link:focus {
    color: #404bbf;
 }
-
+.header-address {
+    font-style: normal;
+}
 .header-email {
 font-family: 'Roboto';
 font-style: normal;
