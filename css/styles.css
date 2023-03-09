@@ -222,7 +222,7 @@ color: #434455;
 
 /**-----Footer---------*/
 .footer {
-backroud-color: var(--footer); 
+background-color:  var(--footer); 
 }
 .footer-title {
 position: absolute;
@@ -243,6 +243,9 @@ display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;              
 color: var(--footer-logo);
+}
+.footer-span {
+    color: #f4f4fd;
 }
 .footer-text {
 font-family: 'Roboto', sans-serif;
