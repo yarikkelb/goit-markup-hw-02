@@ -3,6 +3,8 @@
 --second-title-color: #303030;
 --main-btn-color: #ffffff;     
 --all-btn: #4d5ae5;
+--footer: #2e2f42;
+--footer-logo: #4d5ae5;
 }
 
 body{
@@ -218,12 +220,9 @@ color: #434455;
 }
 
 
-
-
-
 /**-----Footer---------*/
 .footer {
-backroud-color: #2e2f42;
+backroud-color: var(--footer); 
 }
 .footer-title {
 position: absolute;
@@ -234,16 +233,16 @@ top: 2380px;
 }
 
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;           
-    display: flex;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;              
-    color: #F4F4FD;
+font-family: 'Raleway', sans-serif;
+text-decoration: none;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;           
+display: flex;
+letter-spacing: 0.03em;
+text-transform: uppercase;              
+color: var(--footer-logo);
 }
 .footer-text {
 font-family: 'Roboto', sans-serif;
@@ -252,7 +251,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;           
 letter-spacing: 0.02em;
-/* CORNFLOWER */
 color: #E7E9FC;
 }
 
