@@ -82,7 +82,7 @@ font-style: normal
 .header-email:hover {
     color: #404bbf;
 }
-.header-tel:focus {
+.header-email:focus {
     color: #404bbf;
 }
 .hero {
