@@ -40,7 +40,7 @@ background-color: #ffffff;
     color: var(--span);
 }
 
-.header-link {
+.header-button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -53,10 +53,10 @@ background-color: #ffffff;
     order: 0;
     flex-grow: 0;
 }
-.header-link:hover {
+.header-button:hover {
     color: #404bbf;
 }
-.header-link:focus {
+.header-button:focus {
    color: #404bbf;
 }
 .header-address {
