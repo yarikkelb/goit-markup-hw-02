@@ -1,6 +1,6 @@
 :root{
 --header-logo: #4d5ae5;
---header-address: #434455; 
+--header-email: #434455; 
 --main-title-color: #ffffff;
 --second-title-color: #303030;
 --main-btn-color: #ffffff;     
@@ -60,22 +60,19 @@ background-color: #ffffff;
    color: #404bbf;
 }
 
-.header-address {
+.header-email {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-address);
+    color: var(--header-email);
 }
-.header-email {
-    
-}
-.header-address:hover {
+.header-email:hover {
     color: #404bbf;
 }
-.header-address:focus {
+.header-email:focus {
     color: #404bbf;
 }
 
