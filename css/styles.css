@@ -36,16 +36,12 @@ color: #404bbf;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;               
-     color: #4D5AE5;
-    
+    color: #4D5AE5;
+    color: var(--span);    
 }
 .header-logo: hover{
     color: #4D5AE5;
 }
-.span {
- color: var(--span);
-}
-
 
 .header-link {
     font-family: 'Roboto', sans-serif;
