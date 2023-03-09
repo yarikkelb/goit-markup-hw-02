@@ -1,4 +1,4 @@
-!:root{
+:root{
 --main-title-color: #ffffff;
 --second-title-color: #303030;
 --main-btn-color: #ffffff;     
@@ -115,9 +115,7 @@ font-style: normal
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    /* NAVY BLUE */
     color: #2E2F42;       
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -163,7 +161,6 @@ font-style: normal
     font-size: 20px;
     line-height: 1.2;       
     letter-spacing: 0.02em;
-    /* NAVY BLUE */
     color: #2E2F42;            
     flex: none;
     order: 0;
