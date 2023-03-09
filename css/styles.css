@@ -5,6 +5,7 @@
 --all-btn: #4d5ae5;
 --footer: #2e2f42;
 --footer-logo: #4d5ae5;
+--span: #2e2f42;
 }
 
 body{
@@ -24,9 +25,6 @@ background-color: #ffffff;
 .nav .link:focus{
 color: #404bbf;
 }
-.top-text {
-
-}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -44,8 +42,8 @@ color: #404bbf;
 .header-logo: hover{
     color: #4D5AE5;
 }
-.span:  {
-
+.span {
+ color: var(--span);
 }
 
 
