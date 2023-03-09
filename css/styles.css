@@ -52,11 +52,11 @@ background-color: #ffffff;
     order: 0;
     flex-grow: 0;
 }
-.header-link link:hover {
+.header-link:hover {
     color: #404bbf;
 }
-.header-link link:focus {
-    color: #404bbf;
+.header-link:focus {
+   color: #404bbf
 }
 .header-address {
 font-style: normal
