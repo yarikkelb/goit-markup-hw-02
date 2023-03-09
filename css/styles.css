@@ -37,10 +37,11 @@ color: #404bbf;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;               
-    color: var(--span); 
     color: var(--header-logo);   
 }
-
+.header-span {
+    color: var(--span);
+}
 
 .header-link {
     font-family: 'Roboto', sans-serif;
