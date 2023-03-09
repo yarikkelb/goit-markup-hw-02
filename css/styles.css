@@ -56,7 +56,8 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;      
+    color: #2E2F42;   
+    text-decoration: none;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -134,7 +135,7 @@ font-style: normal
     order: 1;
     flex-grow: 0;
 }
-.promo-subject-title {
+.promo-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
