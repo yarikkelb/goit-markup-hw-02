@@ -22,10 +22,6 @@ body{
 .header {
 background-color: #ffffff;
 }
-.nav .link:hover,
-.nav .link:focus{
-color: #404bbf;
-}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -56,6 +52,9 @@ color: #404bbf;
     order: 0;
     flex-grow: 0;
 
+}
+.header-link:is(:hover, :focus) {
+    color: #404bbf;
 }
 .header-address {
 font-style: normal
