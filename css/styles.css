@@ -49,7 +49,8 @@ background-color: var(--header);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;               
-    color: var(--header-logo);   
+    color: var(--header-logo);  
+    text-decoration: none;
 }
 .header-span {
     color: var(--span);
