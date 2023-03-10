@@ -1,7 +1,23 @@
 :root{
+--body: #434455;
+--header: #ffffff;
 --header-logo: #4d5ae5;
 --header-email: #434455; 
+--header-button: #2E2F42;
+--hero: #2E2F42;
+--hero-title: #FFFFFF;
 --main-title-color: #ffffff;
+--hero-btn: #FFFFFF;
+--about-subtitle: #2E2F42;
+--about-text: #434455;
+--promo-title: #2E2F42;
+--team-title:#2E2F42;
+--team-title-name: #2E2F42;
+--team-text: #434455;
+--gallery: #FFFFFF;
+--gallery-title: #2E2F42;
+--gallery-text: #434455;
+--footer-text: #E7E9FC;
 --second-title-color: #303030;
 --main-btn-color: #ffffff;     
 --all-btn: #4d5ae5;
@@ -12,7 +28,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;    
-    color: #434455;
+    color: var(--body);
 }
 .link {
     text-decoration: none;
@@ -21,7 +37,7 @@ body{
     list-style: none;
 }
 .header {
-background-color: #ffffff;
+background-color: var(--header);
 }
 
 .header-logo {
@@ -45,7 +61,7 @@ background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;   
+    color: var(--header-button);  
     text-decoration: none;
     flex: none;
     order: 0;
@@ -75,7 +91,7 @@ color: var(--header-email);
 }
 
 .hero {
-    background-color: #2E2F42;;
+    background-color: var(--hero);
 }
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -84,7 +100,7 @@ color: var(--header-email);
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-title);
 }
 .hero-btn {
     font-family: inherit;
@@ -92,8 +108,14 @@ color: var(--header-email);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--hero-btn);
     cursor: pointer;
+}
+.hero-btn:hover {
+    color: #404bbf;
+}
+.hero-btn:focus {
+    color: #404bbf;
 }
 .about-subtitle{
     font-family: 'Roboto', sans-serif;
@@ -101,7 +123,7 @@ color: var(--header-email);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;       
+    color: var(--about-subtitle);      
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -111,7 +133,7 @@ color: var(--header-email);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;    
-    color: #434455;  
+    color: var(--about-text); 
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -124,7 +146,7 @@ color: var(--header-email);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--promo-title);
 }
 .team-title {
     font-family: 'Roboto', sans-serif;
@@ -134,7 +156,7 @@ color: var(--header-email);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--team-title);
 }
 .team-title-name {
     font-family: 'Roboto', sans-serif;
@@ -142,7 +164,7 @@ color: var(--header-email);
     font-size: 20px;
     line-height: 1.2;       
     letter-spacing: 0.02em;
-    color: #2E2F42;            
+    color:  var(--team-title-name);          
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -153,7 +175,7 @@ color: var(--header-email);
     font-size: 16px;
     line-height: 1.5;        
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--team-text);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -171,11 +193,17 @@ text-align: center;
 letter-spacing: 0.04em;
 color: var(--all-btn);
 }
+.all-btn:hover {
+    color: #404bbf;
+}
+.all-btn:focus {
+    color: #404bbf;
+}
 .list {
 list-style: none;
 }
-.gallery list {
-    background-color: #FFFFFF;
+.gallery{
+    background-color: var(--gallery);
     text-decoration: none; 
 }
 .gallery-title{
@@ -184,14 +212,14 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;        
 letter-spacing: 0.02em;       
-color: #2E2F42;
+color: var(--gallery-title);
 }
 .gallery-text{
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--gallery-text);
 }
 
 
@@ -227,7 +255,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;           
 letter-spacing: 0.02em;
-color: #E7E9FC;
+color: var(--footer-text);
 }
 
 
