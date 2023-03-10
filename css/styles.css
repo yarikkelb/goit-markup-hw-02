@@ -93,17 +93,12 @@ color: var(--header-email);
 }
 .hero-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .about-subtitle{
     font-family: 'Roboto', sans-serif;
