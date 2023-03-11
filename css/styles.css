@@ -113,10 +113,14 @@ color: var(--header-email);
     cursor: pointer;
 }
 .hero-btn:hover {
-    color: #404bbf;
+    background-color: #4D5AE5; ;
+    color: #FFFFFF;
+    
 }
 .hero-btn:focus {
-    color: #404bbf;
+    background-color: #4D5AE5; ;
+    color: #FFFFFF;
+    
 }
 .about-subtitle{
     font-family: 'Roboto', sans-serif;
@@ -195,9 +199,11 @@ letter-spacing: 0.04em;
 color: var(--all-btn);
 }
 .all-btn:hover {
+    background-color: #F4F4FD;
     color: #404bbf;
 }
 .all-btn:focus {
+    background-color: #F4F4FD;
     color: #404bbf;
 }
 .list {
