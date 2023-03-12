@@ -6,7 +6,6 @@
 --header-email-hover: #404bbf;
 --header-email-focus: #404bbf;
 --header-button: #2E2F42;
---header-button-background: #4D5AE5;
 --header-button-hover: #404bbf;
 --header-button-focus: #404bbf;
 --hero: #2E2F42;
@@ -72,7 +71,6 @@ background-color: var(--header);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: var(--header-button-background);
     color: var(--header-button);  
     text-decoration: none;
     flex: none;
