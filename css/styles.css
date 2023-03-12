@@ -2,12 +2,22 @@
 --body: #434455;
 --header: #ffffff;
 --header-logo: #4d5ae5;
---header-email: #434455; 
+--header-email: #434455;
+--header-email-hover: #404bbf;
+--header-email-focus: #404bbf;
 --header-button: #2E2F42;
+--header-button-background: #4D5AE5;
+--header-button-hover: #404bbf;
+--header-button-focus: #404bbf;
 --hero: #2E2F42;
 --hero-title: #FFFFFF;
 --main-title-color: #ffffff;
 --hero-btn: #FFFFFF;
+--hero-btn-background: #4D5AE5;
+--hero-btn-background-hover: #4D5AE5;
+--hero-btn-color-hover: #FFFFFF;
+--hero-btn-background-focus: #4D5AE5;
+--hero-btn-color-focus: #FFFFFF;
 --about-subtitle: #2E2F42;
 --about-text: #434455;
 --promo-title: #2E2F42;
@@ -62,6 +72,7 @@ background-color: var(--header);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: var(--header-button-background);
     color: var(--header-button);  
     text-decoration: none;
     flex: none;
@@ -69,10 +80,10 @@ background-color: var(--header);
     flex-grow: 0;
 }
 .header-button:hover {
-    color: #404bbf;
+    color: var(--header-button-hover);
 }
 .header-button:focus {
-   color: #404bbf;
+   color: var(--header-button-focus);
 }
 .header-address {
     font-style: normal;
@@ -85,10 +96,10 @@ letter-spacing: 0.02em;
 color: var(--header-email);
 }
 .header-email:hover {
-    color: #404bbf;
+    color: var(--header-email-hover);
 }
 .header-email:focus {
-    color: #404bbf;
+    color: var(--header-email-focus)
 }
 
 .hero {
@@ -109,17 +120,18 @@ color: var(--header-email);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: var(--hero-btn-background);
     color: var(--hero-btn);
     cursor: pointer;
 }
 .hero-btn:hover {
-    background-color: #4D5AE5; ;
-    color: #FFFFFF;
+    background-color: var(--hero-btn-background-hover); 
+    color: var(--hero-btn-color-hover);
     
 }
 .hero-btn:focus {
-    background-color: #4D5AE5; ;
-    color: #FFFFFF;
+    background-color: var(--hero-btn-background-focus);
+    color: var(--hero-btn-color-focus);
     
 }
 .about-subtitle{
@@ -197,14 +209,16 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--all-btn);
+background-color: #F4F4FD;
+border-color: 1px solid #E7E9FC ;
 }
 .all-btn:hover {
-    background-color: #F4F4FD;
-    color: #404bbf;
+    background-color: #404bbf;
+    color: #F4F4FD;
 }
 .all-btn:focus {
-    background-color: #F4F4FD;
-    color: #404bbf;
+    background-color: #404bbf; 
+    color: #F4F4FD;
 }
 .list {
 list-style: none;
