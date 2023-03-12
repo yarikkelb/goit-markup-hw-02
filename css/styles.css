@@ -13,9 +13,9 @@
 --main-title-color: #ffffff;
 --hero-btn: #FFFFFF;
 --hero-btn-background: #4D5AE5;
---hero-btn-background-hover: #4D5AE5;
+--hero-btn-background-hover:rgba(0, 0, 0, 0.15);
 --hero-btn-color-hover: #FFFFFF;
---hero-btn-background-focus: #4D5AE5;
+--hero-btn-background-focus: rgba(0, 0, 0, 0.15);
 --hero-btn-color-focus: #FFFFFF;
 --about-subtitle: #2E2F42;
 --about-text: #434455;
